@@ -4,15 +4,13 @@
 
 These programs make it possible to determine in real time, with machine learning methods, if a GPS receiver is subject to spoofing or jamming.
 
-Requierment :
-
 ## Compatibility
 
 `pynmea2` is compatible with Python 2.7 and Python 3.7+
 
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
-## Installation 
+## Installation & Requierment
 The use of these programs requires the installation of the following python libraries : 
 
 * numpy
@@ -64,6 +62,18 @@ To execute the script based on svm for real-time analysis, you can use the comma
 python3 real_time_detection.py
 ```
 
-4. [man_in_the_middle] This programm allow to deploy a Man_In_The_Middle between BirdgeCommand and OpenCPN. You just have to set the right ports for the sockets
+4. [man_in_the_middle] This programm allow to deploy a Man_In_The_Middle between BirdgeCommand and OpenCPN. You just have to set the right ports for the sockets. Then the script will modify the latitude and longitude data of the ship in real time before sending them to the electronic chart display system.
 
-5. [predictions] There are two programs which are use 
+```sh
+python3 man_in_the_middle.py
+```
+
+5. [predictions] These two programs can predict and determine whether a test data set is subject to decoy or interference using different features. For example by analyzing variations in phi and g or variations in distance and heading.
+
+```sh
+python3 prediction_v_.py
+```
+
+## Disclaimer
+
+# :exclamation: These programs have been produced as part of an end-of-study project, they are not intended to be used in any other context than the pedagogical one. The authors of these programs are in no way responsible for the misuse of these programs and their functionalities. They have been tested in an environment supervised by professionals in the field :exclamation:
