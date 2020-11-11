@@ -10,7 +10,7 @@ These programs make it possible to determine in real time, with machine learning
 
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
-## Installation & Requierment
+## Installation & Requirement
 The use of these programs requires the installation of the following python libraries : 
 
 * numpy
@@ -25,7 +25,7 @@ the "pynmea2" package available via this link : https://github.com/Knio/pynmea2
 You can install all necessary libraries by executing this command : 
 
 ```sh
-pip3 install requierement.txt
+pip3 install requirement.txt
 ```
 
 ## Use  : 
