@@ -13,7 +13,13 @@ Requierment :
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
 ## Installation 
-The use of these programs requires the installation of the following python libraries
+The use of these programs requires the installation of the following python libraries : 
+
+* numpy
+* pynmea2
+* math
+* json
+* sklearn
 
 the "pynmea2" package available via this link : https://github.com/Knio/pynmea2
 
