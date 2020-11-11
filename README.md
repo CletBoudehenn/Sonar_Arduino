@@ -76,4 +76,4 @@ python3 prediction_v_.py
 
 ## Disclaimer
 
-# :exclamation: These programs have been produced as part of an end-of-study project, they are not intended to be used in any other context than the pedagogical one. The authors of these programs are in no way responsible for the misuse of these programs and their functionalities. They have been tested in an environment supervised by professionals in the field :exclamation:
+### :exclamation: These programs have been produced as part of an end-of-study project, they are not intended to be used in any other context than the pedagogical one. The authors of these programs are in no way responsible for the misuse of these programs and their functionalities. They have been tested in an environment supervised by professionals in the field :exclamation:
