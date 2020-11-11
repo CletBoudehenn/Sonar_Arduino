@@ -41,11 +41,29 @@ OpenCPN is available at this address : https://opencpn.org/OpenCPN/info/download
 ### Description : 
 
 1. [statistical_method] this method implements and evaluates the different functions related to the statistical resolution of the problem.
-2. [SVM_LOF_method] this method implements and evaluates (via svm or lof based on sklearn libaray) to detect jamming or spoofing
-3. [real_time_detection] this script contains the "ready to use" realease of these two types of scripts
 
-To execute le script, you can use the command : 
+* If you want to use the satistical method, you can use this command : 
 
 ```sh
-python3 detection_temps_reel.python3
+python3 main.py
 ```
+
+2. [SVM_LOF_method] this method implements and evaluates (via svm or lof based on sklearn libaray) to detect jamming or spoofing
+
+* If you want to use the svm anomaly detection method with scoring, you can use this command : 
+
+```sh
+python3 score_SVM.py
+```
+
+3. [real_time_detection] this script contains the "ready to use" realease of these two types of scripts
+
+To execute the script based on svm for real-time analysis, you can use the command : 
+
+```sh
+python3 real_time_detection.py
+```
+
+4. [man_in_the_middle] This programm allow to deploy a Man_In_The_Middle between BirdgeCommand and OpenCPN. You just have to set the right ports for the sockets
+
+5. [predictions] There are two programs which are use 
