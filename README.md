@@ -62,7 +62,7 @@ python3 score_SVM.py
 python3 real_time_detection.py
 ```
 
-4. [man_in_the_middle] This programm allow to deploy a Man_In_The_Middle between BirdgeCommand and OpenCPN. You just have to set the right ports for the sockets. Then the script will modify the latitude and longitude data of the ship in real time before sending them to the electronic chart display system.
+4. [man_in_the_middle] This programm generates a Man_In_The_Middle between BirdgeCommand and OpenCPN. You just have to set the right ports and ip address for the sockets. Then the script will modify the latitude and longitude data of the ship in real time before sending them to the electronic chart display simulation system.
 
 * If you want to use the man_in_the_middle script (With BridgeCommand and OpenCPN), you can use this command : 
 
