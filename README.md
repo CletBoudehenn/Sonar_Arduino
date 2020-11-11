@@ -1,40 +1,38 @@
 <img src="https://images.unsplash.com/photo-1444492417251-9c84a5fa18e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&h=300&q=80"/>
- 
-### Hi there 👋, I'm Christina Kopecky. I'm a web developer and technical writer. Welcome to my gh page! <br>
- 
-Resume:  [Christina Kopecky Resume](https://resume.christinakopecky.com) (PDF download)
- 
-🔭 *Currently working on*:  Articles that teach students and developers new-to-them technologies. Here are some examples of what I have been writing on: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [React Components: Class vs. Functional](https://careerkarma.com/blog/react-components/)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Web Fundamentals: JavaScript Scopes and Closure](https://careerkarma.com/blog/javascript-closure/)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [CSS Flexbox](https://careerkarma.com/blog/css-flexbox/)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MongoDB vs PostgreSQL: what to consider when choosing a database](https://www.educative.io/blog/mongodb-versus-postgresql-databases)<br>
- 
-🌱 *Currently Learning*: React-Native and Ruby<br>
-🤔 *Looking for help*: I'm looking for help with trying to find my first software engineering job in this current job climate.<br>
-💬 Ask me about: how to mentor students, creating a portfolio site for you, or assistance with an application you are working on. <br>
-📫 How to reach me: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Email](christina@christinakopecky.com)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Twitter](https://www.twitter.com/cmvnk)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [LinkedIn](https://www.linkedin.com/in/cmvnk)
- 
-😄 Pronouns: She/Her/Hers <br>
-⚡ Fun facts:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :musical_note:  In my previous career I was a flutist and flute teacher. You can hear me play here: [Hypnosis by Ian Clarke](https://www.youtube.com/watch?v=6MiZszJjBIQ)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :fallen_leaf: My favorite season is fall :smile: <br>
- 
- 
-<!--
-**ckopecky/ckopecky** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
- 
-Here are some ideas to get you started:
- 
-- 🔭 I'm currently working on ...
-- 🌱 I'm currently learning ...
-- 👯 I'm looking to collaborate on ...
-- 🤔 I'm looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+##Détection en temps-réel de brouillage opu leurraeg GPS avec des méthodes d'apprentissage automaique 
+
+Ces programmes permettent de déterminer en temps réel, grâce a des méthodes d'apprentissage automatique, si un récepteur GPS est soumis à du leurrage ou du brouillage.
+
+Requierment :
+
+##Installation 
+L'utilisation des ces programmes nécessite l'installation des quelques libraries python
+notamment l'ulisation de la lib "pynmea2" disponible via ce lien : https://github.com/Knio/pynmea2
+
+Vous pouvez installer toutes les lib nécéssaire en executant directement cette commande : 
+
+```sh
+pip3 install requierement.txt
+```
+
+##Utilisation : 
+
+Ces programmes peuvent fonctionner sur des systèmes GPS simulé au sein d'une plateforme de simualtion. 
+Dans notre cas, nous avons utilisé le simulateur de navigation : "BridgeCommand", l'afficheur de carte electronique "OpenCPN" et la version 3.8 de python.
+
+BridgeCommand est disponible à cette adresse : https://www.bridgecommand.co.uk/Download
+
+OpenCPN est disponible à cette adresse : https://opencpn.org/OpenCPN/info/downloads.html
+
+#Dans ce dépôt, il y a 3 techniques distinctes : 
+
+1. [Méthode Statistique] qui implémente et évalue les différentes fonctions relatives à la résolution statistique du problème
+2. [Méthode SVM_LOF] qui implémente et évalue plusieurs méthodes d'intelligence atrificielle ( via le module scikit-learn de python ) pour déterminer la présence ou non de leurrage.
+3. [Méthode script_final] qui contient la version "prête à l'emploi" de ces deux types de scripts
+
+Pour écxécuter les script, vous pouvez utiliser la commande : 
+
+```sh
+python3 detection_temps_reel.python3
+```
