@@ -8,15 +8,16 @@ Requierment :
 
 ## Compatibility
 
-`pynmea2` is compatible with Python 2.7 and Python 3.4+
+`pynmea2` is compatible with Python 2.7 and Python 3.7+
 
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
 ## Installation 
 The use of these programs requires the installation of the following python libraries
-notamment l'utilisation de la lib "pynmea2" disponible via ce lien : https://github.com/Knio/pynmea2
 
-Vous pouvez installer toutes les lib nécéssaire en executant directement cette commande : 
+the "pynmea2" package available via this link : https://github.com/Knio/pynmea2
+
+You can install all necessary libraries by executing this command : 
 
 ```sh
 pip3 install requierement.txt
@@ -33,9 +34,9 @@ OpenCPN is available at this address : https://opencpn.org/OpenCPN/info/download
 
 ### Description : 
 
-1. [Statistical Method] which implements and evaluates the different functions related to the statistical resolution of the problem.
-2. [SVM_LOF method] which implements and evaluates several atrificial intelligence methods (via python's scikit-learn module) to determine the presence or absence of decoys.
-3. [Script_final method] which contains the "ready to use" version of these two types of scripts
+1. [statistical_method] this method implements and evaluates the different functions related to the statistical resolution of the problem.
+2. [SVM_LOF_method] this method implements and evaluates (via svm or lof based on sklearn libaray) to detect jamming or spoofing
+3. [real_time_detection] this script contains the "ready to use" realease of these two types of scripts
 
 To execute le script, you can use the command : 
 
