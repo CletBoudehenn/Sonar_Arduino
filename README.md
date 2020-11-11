@@ -1,4 +1,4 @@
-<img src="https://www.google.fr/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4iNThvr8nvM&psig=AOvVaw31AbKxYRXkPld9ipgjJhZ_&ust=1605198768868000&source=images&cd=vfe&ved=2ahUKEwik28jE9frsAhVuAWMBHUHFBWwQjRx6BAgAEAc"/>
+<img src="https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4iNThvr8nvM&psig=AOvVaw31AbKxYRXkPld9ipgjJhZ_&ust=1605198768868000&source=images&cd=vfe&ved=2ahUKEwik28jE9frsAhVuAWMBHUHFBWwQjRx6BAgAEAc"/>
 
 # Détection en temps-réel de brouillage opu leurrage GPS avec des méthodes d'apprentissage automaique 
 
