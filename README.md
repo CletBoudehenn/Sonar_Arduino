@@ -6,6 +6,12 @@ Ces programmes permettent de déterminer en temps réel, grâce a des méthodes 
 
 Requierment :
 
+## Compatibility
+
+`pynmea2` is compatible with Python 2.7 and Python 3.4+
+
+![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
+
 ## Installation 
 L'utilisation des ces programmes nécessite l'installation des quelques libraries python
 notamment l'ulisation de la lib "pynmea2" disponible via ce lien : https://github.com/Knio/pynmea2
