@@ -1,6 +1,6 @@
-<img src="https://images.unsplash.com/photo-1444492417251-9c84a5fa18e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&h=300&q=80"/>
+<img src="https://www.google.fr/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4iNThvr8nvM&psig=AOvVaw31AbKxYRXkPld9ipgjJhZ_&ust=1605198768868000&source=images&cd=vfe&ved=2ahUKEwik28jE9frsAhVuAWMBHUHFBWwQjRx6BAgAEAc"/>
 
-## Détection en temps-réel de brouillage opu leurraeg GPS avec des méthodes d'apprentissage automaique 
+# Détection en temps-réel de brouillage opu leurrage GPS avec des méthodes d'apprentissage automaique 
 
 Ces programmes permettent de déterminer en temps réel, grâce a des méthodes d'apprentissage automatique, si un récepteur GPS est soumis à du leurrage ou du brouillage.
 
@@ -25,7 +25,7 @@ BridgeCommand est disponible à cette adresse : https://www.bridgecommand.co.uk/
 
 OpenCPN est disponible à cette adresse : https://opencpn.org/OpenCPN/info/downloads.html
 
-# Dans ce dépôt, il y a 3 techniques distinctes : 
+### Dans ce dépôt, il y a 3 techniques distinctes : 
 
 1. [Méthode Statistique] qui implémente et évalue les différentes fonctions relatives à la résolution statistique du problème
 2. [Méthode SVM_LOF] qui implémente et évalue plusieurs méthodes d'intelligence atrificielle ( via le module scikit-learn de python ) pour déterminer la présence ou non de leurrage.
