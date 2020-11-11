@@ -1,8 +1,8 @@
 <img src="https://i.pinimg.com/originals/62/13/46/62134608fbd069d4386232dba878d340.jpg"/>
 
-# Détection en temps-réel de brouillage opu leurrage GPS avec des méthodes d'apprentissage automaique 
+# Real-time GPS jamming and spoofing detection with machine learning
 
-Ces programmes permettent de déterminer en temps réel, grâce a des méthodes d'apprentissage automatique, si un récepteur GPS est soumis à du leurrage ou du brouillage.
+These programs make it possible to determine in real time, with machine learning methods, if a GPS receiver is subject to spoofing or jamming.
 
 Requierment :
 
@@ -13,8 +13,8 @@ Requierment :
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
 ## Installation 
-L'utilisation des ces programmes nécessite l'installation des quelques libraries python
-notamment l'ulisation de la lib "pynmea2" disponible via ce lien : https://github.com/Knio/pynmea2
+The use of these programs requires the installation of the following python libraries
+notamment l'utilisation de la lib "pynmea2" disponible via ce lien : https://github.com/Knio/pynmea2
 
 Vous pouvez installer toutes les lib nécéssaire en executant directement cette commande : 
 
@@ -22,22 +22,22 @@ Vous pouvez installer toutes les lib nécéssaire en executant directement cette
 pip3 install requierement.txt
 ```
 
-## Utilisation : 
+## Use  : 
 
-Ces programmes peuvent fonctionner sur des systèmes GPS simulé au sein d'une plateforme de simualtion. 
-Dans notre cas, nous avons utilisé le simulateur de navigation : "BridgeCommand", l'afficheur de carte electronique "OpenCPN" et la version 3.8 de python.
+These programs can run on simulated GPS systems within a simulation platform. 
+In our case, we used the navigation simulator: "BridgeCommand", the electronic map display "OpenCPN" with an embedded plugin called "tactics".
 
-BridgeCommand est disponible à cette adresse : https://www.bridgecommand.co.uk/Download
+BridgeCommand is available at this address : https://www.bridgecommand.co.uk/Download
 
-OpenCPN est disponible à cette adresse : https://opencpn.org/OpenCPN/info/downloads.html
+OpenCPN is available at this address : https://opencpn.org/OpenCPN/info/downloads.html
 
-### Dans ce dépôt, il y a 3 techniques distinctes : 
+### Description : 
 
-1. [Méthode Statistique] qui implémente et évalue les différentes fonctions relatives à la résolution statistique du problème
-2. [Méthode SVM_LOF] qui implémente et évalue plusieurs méthodes d'intelligence atrificielle ( via le module scikit-learn de python ) pour déterminer la présence ou non de leurrage.
-3. [Méthode script_final] qui contient la version "prête à l'emploi" de ces deux types de scripts
+1. [Statistical Method] which implements and evaluates the different functions related to the statistical resolution of the problem.
+2. [SVM_LOF method] which implements and evaluates several atrificial intelligence methods (via python's scikit-learn module) to determine the presence or absence of decoys.
+3. [Script_final method] which contains the "ready to use" version of these two types of scripts
 
-Pour écxécuter les script, vous pouvez utiliser la commande : 
+To execute le script, you can use the command : 
 
 ```sh
 python3 detection_temps_reel.python3
