@@ -75,11 +75,11 @@ python3 man_in_the_middle.py
 * If you want to make some predictions with your own dataset by using these scripts, you can use : 
 
 ```sh
-python3 prediction_v_.py
+python3 prediction.py
 ```
 
 ## Disclaimer
 
 ### :exclamation: These programs have been produced as part of an end-of-study project, they are not intended to be used in any other context than the pedagogical one. 
 ### :exclamation: The authors of these programs are not responsible for the misuse of these scripts and their functionalities. 
-### :exclamation: They have been tested in an environment supervised by specific professionals.
+### :exclamation: They have been tested in a supervised environment by specific professionals.
