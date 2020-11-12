@@ -10,14 +10,13 @@ These programs make it possible to determine in real time, with machine learning
 
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
-## Installation & Requierment
+## Installation & requirements
 The use of these programs requires the installation of the following python libraries : 
 
 * numpy
 * pynmea2
-* math
-* json
-* socket
+* jsonlib-python3
+* sockets
 * sklearn
 
 the "pynmea2" package available via this link : https://github.com/Knio/pynmea2
@@ -25,7 +24,7 @@ the "pynmea2" package available via this link : https://github.com/Knio/pynmea2
 You can install all necessary libraries by executing this command : 
 
 ```sh
-pip3 install requierement.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## Use  : 
