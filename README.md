@@ -6,7 +6,7 @@ These programs make it possible to determine in real time, with machine learning
 
 ## Compatibility
 
-`pynmea2` is compatible with Python 2.7 and Python 3.7+
+All of these codes are compatible with Python 2.7 and Python 3.5+
 
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
@@ -93,3 +93,4 @@ python3 prediction.py
 ### :exclamation: These programs have been produced as part of an end-of-study project, they are not intended to be used in any other context than the pedagogical one. 
 ### :exclamation: The authors of these programs are not responsible for the misuse of these scripts and their functionalities. 
 ### :exclamation: They have been tested in a supervised environment by professionals.
+
