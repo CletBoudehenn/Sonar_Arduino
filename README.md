@@ -10,7 +10,7 @@ These programs make it possible to determine in real time, with machine learning
 
 ![Python version](https://img.shields.io/pypi/pyversions/pynmea2.svg?style=flat)
 
-## Installation & Requirement
+## Installation & Requierment
 The use of these programs requires the installation of the following python libraries : 
 
 * numpy
@@ -25,7 +25,7 @@ the "pynmea2" package available via this link : https://github.com/Knio/pynmea2
 You can install all necessary libraries by executing this command : 
 
 ```sh
-pip3 install requirement.txt
+pip3 install requierement.txt
 ```
 
 ## Use  : 
@@ -84,3 +84,5 @@ python3 prediction.py
 ### :exclamation: These programs have been produced as part of an end-of-study project, they are not intended to be used in any other context than the pedagogical one. 
 ### :exclamation: The authors of these programs are not responsible for the misuse of these scripts and their functionalities. 
 ### :exclamation: They have been tested in a supervised environment by specific professionals.
+
+
